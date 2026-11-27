@@ -1,5 +1,7 @@
 # UserScout
 
+Author: Mohamed Hany
+
 UserScout is a command-line tool for username investigation. Give it a username and it checks, concurrently, whether a profile with that name exists on dozens of public sites, then prints a colored summary and can write an HTML or JSON report.
 
 It is written in pure Python 3 with a single dependency (`requests`).
@@ -95,6 +97,10 @@ Then run `python -m userscout --calibrate somename` to confirm it behaves.
 ## Responsible use
 
 Use this tool only for lawful purposes such as checking your own online footprint, security research you are authorized to perform, and journalism. Respect each site's terms of service and applicable law.
+
+## Author
+
+Created and maintained by Mohamed Hany ([@mohamedhanyegdm-sudo](https://github.com/mohamedhanyegdm-sudo)).
 
 ## License
 
